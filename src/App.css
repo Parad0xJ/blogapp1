@@ -1,0 +1,14 @@
+body,
+.card {
+  background-color: rgb(100, 90, 163);
+}
+#cardHome {
+  max-width: 18rem;
+}
+.spinner {
+  width: 80px;
+  height: 80px;
+}
+#apropos-card {
+  max-width: 20rem;
+}

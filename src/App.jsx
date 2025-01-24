@@ -11,10 +11,10 @@ import "./App.css";
 function App() {
   return (
     <>
-      <BrowserRouter basename={import.meta.env.BASE_URL}>
+      <BrowserRouter>
         <NavBar />
         <Routes>
-          <Route index element={<Home />} />
+          <Route path="/" element={<Home />} />
           <Route path="User/:id" element={<User />} />
           <Route path="*" element={<NotFound />} />
           <Route path="Apropos" element={<Apropos />} />

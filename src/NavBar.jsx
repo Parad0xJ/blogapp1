@@ -33,7 +33,10 @@ export default function NavBar() {
         </button>
         <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
           <div className="navbar-nav">
-            <NavLink to="/" className={({ isActive }) => stylesLink(isActive)}>
+            <NavLink
+              to="/Home"
+              className={({ isActive }) => stylesLink(isActive)}
+            >
               Home
             </NavLink>
             <NavLink
